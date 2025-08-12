@@ -58,6 +58,7 @@ lib-features = ["hydrate"]
 lib-default-features = false
 lib-profile-release = "wasm-release"
 hashed = true
+name="app"
 
 [profile.wasm-release]
 inherits = "release"

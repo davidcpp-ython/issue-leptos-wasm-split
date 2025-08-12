@@ -18,8 +18,6 @@ When using Leptos lazy routes, the generated filenames for lazy-loaded WASM chun
 The issue occurs when:
 1. Multiple lazy routes are defined using the `LazyRoute` trait and `#[lazy_route]` macro
 2. Routes have long struct names (e.g., `LazyEnterpriseResourcePlanningSystemIntegrationModule`)
-3. Building with `cargo leptos build --release --split`
-4. The `hashed = true` option is enabled in `Cargo.toml`
 
 The combination of:
 - Long type names from the lazy route structs
