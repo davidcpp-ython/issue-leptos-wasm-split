@@ -1,0 +1,26 @@
+# Rust build artifacts
+target/
+
+# Leptos build output
+dist/
+site/
+pkg/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.claude
